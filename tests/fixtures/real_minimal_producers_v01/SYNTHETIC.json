@@ -1,0 +1,28 @@
+{
+  "origin": "SYNTHETIC",
+  "description": "Hand-authored contract vectors. Not real GSI or Juggernaut acceptance.",
+  "payload": {
+    "provider": {"appid": 570, "timestamp": 1},
+    "map": {"matchid": 0, "clock_time": 0, "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS", "paused": false},
+    "player": {"team_name": "radiant", "activity": "playing", "last_hits": 0},
+    "hero": {"name": "npc_test_hero", "level": 1, "alive": true},
+    "abilities": {"ability0": {"name": "test_active", "level": 1, "cooldown": 0, "can_cast": true, "passive": false}},
+    "items": {"slot0": {"name": "item_test"}, "stash0": {"name": "empty"}}
+  },
+  "vectors": [
+    {"name": "death", "patch": {"hero.alive": false}},
+    {"name": "respawn", "patch": {"hero.alive": true}},
+    {"name": "pause", "patch": {"map.paused": true}},
+    {"name": "resume", "patch": {"map.paused": false}},
+    {"name": "gap", "control": "TIME_ADVANCE", "receipt_elapsed_ns": 31000000000},
+    {"name": "rewind", "source_match_time": 0},
+    {"name": "timeline_change", "control": "RESET"},
+    {"name": "session_change", "patch": {"hero.name": "other_test_hero"}},
+    {"name": "lh_regression", "last_hits": 0},
+    {"name": "same_time_inconsistent_lh", "source_match_time": 0, "last_hits": 1},
+    {"name": "ability_missing", "patch": {"abilities": {}}},
+    {"name": "ability_duplicate", "patch": {"abilities.ability1": {"name": "test_active", "level": 1, "cooldown": 0, "can_cast": true, "passive": false}}},
+    {"name": "invalid_nested_field", "patch": {"abilities.ability0.cooldown": "unknown"}},
+    {"name": "item_ambiguity", "patch": {"items.slot1": {"name": "item_test"}}}
+  ]
+}

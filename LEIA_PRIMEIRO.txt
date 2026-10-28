@@ -1,0 +1,21 @@
+DOTA AI COACH — ALPHA 0.2 — PRIMEIRO TESTE
+
+1. Extraia tudo em C:\DotaAICoach02. Preserve sua pasta Alpha 0.1.
+2. Instale Python 3.13 x64 com Tcl/Tk e Python Launcher, se necessário.
+3. Execute Install.cmd e aguarde a confirmação de instalação.
+4. Feche o Coach 0.1. Execute Start-Bot-Test.cmd.
+5. Ative Coach ON e Voz ON. Clique Testar voz.
+6. Com Dota fechado: Configurar GSI 0.2 e selecione a pasta dota 2 beta.
+7. Mantenha -gamestateintegration nas opções de inicialização da Steam.
+8. Abra Dota e entre em uma partida SOLO contra bots.
+9. Confirme GSI CONECTADO e dados mudando. Deixe Vision desligado neste primeiro teste.
+10. Meta LH/min = 5, Salvar. Vivo e sem pausa, fique aproximadamente 30 segundos
+    sem dar last hits. Espere a recomendação e avalie-a.
+11. Exporte diagnóstico + avaliações antes de fechar.
+
+Instruções de cada regra: docs\TESTE_REAL.md.
+Detalhes de instalação: README.md.
+
+IMPORTANTE: código e testes preparados. Voz Windows e visão do minimapa ainda
+precisam de validação real. Visão é EXPERIMENTAL, somente bots, desligada por padrão.
+Não avance para ranked com a visão experimental.

@@ -1,0 +1,909 @@
+{
+  "description": "Hand-authored contract vectors, never real GSI capture",
+  "origin": "SYNTHETIC",
+  "scenarios": {
+    "auth_and_pii": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "auth": {
+        "token": "SYNTHETIC_TOKEN"
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "name": "Synthetic Player",
+        "steamid": "SYNTHETIC_PRIVATE",
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "steamid": "SYNTHETIC_PRIVATE",
+        "timestamp": 1234
+      }
+    },
+    "cooldown_absent": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "cooldown_change": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 8,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "empty_items": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {},
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "explicit_zero": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 0,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "hero_changed": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_lion"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "item_change": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_other"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "match_id_changed": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "43",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "match_id_empty": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "match_id_zero": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": 0,
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "menu": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_MAIN_MENU",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "missing_scope": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "nonlocal": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "activity": "menu",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "optional_absent": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "optional_invalid": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": "invalid",
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "pause": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": true
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "rewind": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 299,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "spectator": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "team2": {
+          "player0": {
+            "name": "Synthetic",
+            "steamid": "SYNTHETIC_PRIVATE"
+          }
+        }
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "unsupported_health": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "health": 700,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    },
+    "valid_local": {
+      "abilities": {
+        "ability0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "level": 1,
+          "name": "example"
+        }
+      },
+      "hero": {
+        "alive": true,
+        "buyback_cooldown": 0,
+        "buyback_cost": 400,
+        "level": 5,
+        "name": "npc_dota_hero_juggernaut"
+      },
+      "items": {
+        "slot0": {
+          "can_cast": true,
+          "cooldown": 0,
+          "name": "item_boots"
+        }
+      },
+      "map": {
+        "clock_time": 300,
+        "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "matchid": "42",
+        "paused": false
+      },
+      "player": {
+        "activity": "playing",
+        "assists": 0,
+        "deaths": 0,
+        "denies": 0,
+        "gold": 500,
+        "gpm": 300,
+        "kills": 0,
+        "last_hits": 10,
+        "team_name": "radiant",
+        "xpm": 400
+      },
+      "provider": {
+        "appid": 570,
+        "timestamp": 1234
+      }
+    }
+  }
+}

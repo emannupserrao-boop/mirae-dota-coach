@@ -1,0 +1,23 @@
+{
+  "README.md": "273484b1f8081cff5477e47dcc29e9915777d5ff8ab7df3a418e4d8c7f8d78e3",
+  "requirements.txt": "a78f581c57311ef0e836e4ac758aeb65a12fb55cebd94ea641ee2e80b05ed793",
+  "run.py": "8a33aca55c07806209e16233f0a43ca959952b7ec813dbebe9062a0bc396db66",
+  "Start-Coach.cmd": "6102834c70713dbab826db9d8df95ece924bb8b7f3a88127b2a31ce1b84d4222",
+  ".gitignore": "7fd38b37cc8033fdc82d415e9026a00db934d86b5642d6b03df2e2eecad2ef63",
+  "Test-Demo.cmd": "e26914aee0ec87a6327a5298d9baa9276ba31c8275aec51c847726469459b141",
+  "Run-Tests.cmd": "fa97f611b0f21c401e6a4482a23cf9dae0ba8062c5aa3210601648eb5bcb8272",
+  "docs/DECISIONS.md": "83d8c8edd6386c958cb5a770746a1b7016c355596985db44646eff0b9ada7571",
+  "docs/VALIDATION.md": "f29b09dd7427543eda767b0fdbe68033c4a7980e6a9a9adc3255189f274f619e",
+  "tests/test_alpha.py": "6a05ceb44d2615dd4c9ea4eefe41cef8ececb9afb4cad20e643dc1b95d35bfc9",
+  "coach/ui.py": "18fb3ecfffa46fed5351e0f8bcd257758a1da6bbe9d7978a2400d8e05070dbd6",
+  "coach/__init__.py": "7f11ea1bb3ce6c0337e4be363db8e42212db7162035f0c5e7b5c35ec83ee51fc",
+  "coach/state.py": "35cec08572b1e6b3e64105bc5ac54ce609d4a690c5a8a40a21782d6c9b6a78d5",
+  "coach/voice.py": "8dab5d562017ec9391fb6ce8e7ffe214873df8fe9e7faa53f03c8efd85c692f8",
+  "coach/storage.py": "670991046fc26df49675cb0a586fe3ded55802789521e983745cdebdc521bc24",
+  "coach/demo.py": "3bd8d9895b298a85bd5fcfccdc750cfd41641548b8eee717571002386cc5e329",
+  "coach/process.py": "365f1b2fe34f5edaf100801dc410907f2b2e93100dc97c8f13e1b8fb2c4fdd75",
+  "coach/rules.py": "4f8d13c4ce767eba8ccc5c678a6a3403c52054513acfe1acc6c8fe6410884b01",
+  "coach/gsi.py": "7061543473f5be12720d4d65bbd683b89e75887d29394f141a0147af6f2ec17a",
+  "coach/config.py": "65d00a6d83dd08cda8fc3b187c355ec32cbc4f6a1de07187b7e862c4d64619fd",
+  "coach/service.py": "5f6578df02fd8217e01ec218b6c75a28b720d4c81786c61ee39893d8d257539c"
+}

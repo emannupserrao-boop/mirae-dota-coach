@@ -1,0 +1,4 @@
+numpy==2.3.5
+opencv-python-headless==4.13.0.92
+mss==10.1.0
+Pillow==12.3.0
